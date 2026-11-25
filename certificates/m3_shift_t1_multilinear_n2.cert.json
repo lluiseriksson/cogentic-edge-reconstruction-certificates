@@ -1,0 +1,65 @@
+{
+  "schema_version": "EDGERECON-COGENTIC-CERT-1.0",
+  "cert_id": "m3_shift_t1_multilinear_n2",
+  "mode": "shift_invariant_charlier_band_cert",
+  "description": "Sharp t=1 shift-invariant multilinear polynomial (y0-y1)(y2-y3) with exact Lemma 4.1(1) Charlier bound",
+  "payload": {
+    "num_vars": 4,
+    "degree_N0": 2,
+    "terms": [
+      {
+        "exp": [
+          0,
+          1,
+          0,
+          1
+        ],
+        "coeff": "1"
+      },
+      {
+        "exp": [
+          0,
+          1,
+          1,
+          0
+        ],
+        "coeff": "-1"
+      },
+      {
+        "exp": [
+          1,
+          0,
+          0,
+          1
+        ],
+        "coeff": "-1"
+      },
+      {
+        "exp": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "coeff": "1"
+      }
+    ],
+    "target_v": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "t_max": 1,
+    "claimed_l1_norm": "4",
+    "claimed_target_coeff": "1",
+    "claimed_ratio_l1_over_cv": "4",
+    "charlier_check": {
+      "d": 1,
+      "r": 6,
+      "k_max": 12,
+      "claimed_max_abs_I": "11/12",
+      "claimed_upper_bound": "133/144"
+    }
+  }
+}

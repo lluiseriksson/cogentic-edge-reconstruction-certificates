@@ -1,0 +1,55 @@
+{
+  "schema_version": "EDGERECON-COGENTIC-CERT-1.0",
+  "cert_id": "m1_harary_m3_counterexample",
+  "mode": "edge_deck_hypomorphism_and_kelly",
+  "description": "Classical m=3 non-edge-reconstructible pair: K3 U K1 vs claw K_{1,3} (identical edge-deck {K_{1,2} U K1}^3)",
+  "payload": {
+    "n": 4,
+    "edges_G": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        2
+      ]
+    ],
+    "edges_H": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ]
+    ],
+    "verdict": "NON_ISOMORPHIC_COUNTEREXAMPLE",
+    "claimed_edge_decks_equal": true,
+    "claimed_vertex_decks_equal": false,
+    "claimed_aut_G": 6,
+    "claimed_aut_H": 6,
+    "kelly_patterns": [
+      "K2",
+      "P3"
+    ],
+    "claimed_kelly_edge_counts_G": {
+      "K2": 3,
+      "P3": 3
+    },
+    "claimed_kelly_vertex_counts_G": {
+      "K2": 3,
+      "P3": 0
+    },
+    "claimed_muller_holds": false
+  }
+}

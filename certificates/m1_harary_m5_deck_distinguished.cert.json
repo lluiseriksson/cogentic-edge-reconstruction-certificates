@@ -1,0 +1,77 @@
+{
+  "schema_version": "EDGERECON-COGENTIC-CERT-1.0",
+  "cert_id": "m1_harary_m5_deck_distinguished",
+  "mode": "edge_deck_hypomorphism_and_kelly",
+  "description": "Distinct connected isolate-free graphs at n=5, m=5 (C5 vs lollipop): edge-deck & vertex-deck separate them",
+  "payload": {
+    "n": 5,
+    "edges_G": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        0,
+        4
+      ]
+    ],
+    "edges_H": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "verdict": "DECK_MISMATCH",
+    "claimed_edge_decks_equal": false,
+    "claimed_vertex_decks_equal": false,
+    "claimed_aut_G": 10,
+    "claimed_aut_H": 2,
+    "kelly_patterns": [
+      "K2",
+      "P3",
+      "K3",
+      "P4"
+    ],
+    "claimed_kelly_edge_counts_G": {
+      "K2": 5,
+      "P3": 5,
+      "K3": 0,
+      "P4": 5
+    },
+    "claimed_kelly_vertex_counts_G": {
+      "K2": 5,
+      "P3": 5,
+      "K3": 0,
+      "P4": 5
+    },
+    "claimed_muller_holds": false
+  }
+}

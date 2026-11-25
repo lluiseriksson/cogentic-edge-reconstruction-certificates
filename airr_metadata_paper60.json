@@ -1,0 +1,14 @@
+{
+  "paper_number": 60,
+  "slug": "cogentic-edge-reconstruction-certificates",
+  "title": "Constructive Lean 4 Kernel and Exact Zero-Float Certificates for Google Research Cogentic's Linear-Density Edge Reconstruction Theorem",
+  "authors": ["Lluis Eriksson"],
+  "date": "2026-11-25",
+  "version": "1.0.0",
+  "abstract": "Google Research's Cogentic framework (Nov. 25, 2026) proved unconditionally that every finite simple undirected graph G_0 on n_0 >= 4 vertices with m = |E(G_0)| >= 1000 n_0 edges (or minimum degree delta(G_0) >= 2000) is uniquely determined up to isomorphism by its edge-deck D_E(G_0), lowering Vladimir Muller's five-decade m > n_0 log_2 n_0 threshold to linear edge density. We deliver an explicitly scoped, standalone, zero-floating-point verification stack uniting 18 constructive Lean 4.35.0 theorems (zero sorry, zero axiom, zero Classical.choice, zero warnings; 5 zero-axiom and 13 [propext, Quot.sound]) with a pure-stdlib Python int/Fraction 4-mode auditor (EDGERECON-COGENTIC-CERT-1.0) that certifies 16 canonical witnesses in 0.192-28.989 ms and rejects 62/62 live adversarial forgeries (66/66 pytest checks).",
+  "subjects": ["Combinatorics", "Graph Theory", "Formal Verification", "Computer-Assisted Proofs"],
+  "license_manuscript": "CC-BY-4.0",
+  "license_code": "MIT",
+  "repository_url": "https://github.com/lluiseriksson/cogentic-edge-reconstruction-certificates",
+  "release_tag": "v1.0.0"
+}

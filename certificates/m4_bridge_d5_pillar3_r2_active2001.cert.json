@@ -1,0 +1,211 @@
+{
+  "schema_version": "EDGERECON-COGENTIC-CERT-1.0",
+  "cert_id": "m4_bridge_d5_pillar3_r2_active2001",
+  "mode": "bridge_rigidity_and_density_audit",
+  "description": "Lemma 5.1(2) (Delta=5, |Q_D|=6) + Prop. 8.4 Pillar III (r=2, excess 8) + Thm 1.1 onset n0=2001",
+  "payload": {
+    "n": 18,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        0,
+        5
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        6,
+        8
+      ],
+      [
+        6,
+        9
+      ],
+      [
+        6,
+        10
+      ],
+      [
+        7,
+        0
+      ],
+      [
+        8,
+        1
+      ],
+      [
+        9,
+        2
+      ],
+      [
+        10,
+        3
+      ],
+      [
+        11,
+        0
+      ],
+      [
+        11,
+        1
+      ],
+      [
+        12,
+        0
+      ],
+      [
+        12,
+        1
+      ],
+      [
+        13,
+        2
+      ],
+      [
+        13,
+        3
+      ],
+      [
+        14,
+        2
+      ],
+      [
+        14,
+        3
+      ],
+      [
+        15,
+        4
+      ],
+      [
+        15,
+        5
+      ],
+      [
+        16,
+        0
+      ],
+      [
+        16,
+        4
+      ],
+      [
+        17,
+        0
+      ],
+      [
+        17,
+        4
+      ]
+    ],
+    "delta": 5,
+    "comp_D": [
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "v0": 6,
+    "fixed_S": [
+      0
+    ],
+    "claimed_W_D_size": 4,
+    "claimed_R": 3,
+    "claimed_Q_D_order": 6,
+    "claimed_Q_D_primes": [
+      2,
+      3
+    ],
+    "density_audit": {
+      "n0": 2001,
+      "m0": 2001000,
+      "claimed_avg_degree": "2000",
+      "claimed_thm11_regime": "ACTIVE_LINEAR_DENSITY",
+      "claimed_muller_exceeds_n_pow_n": true
+    },
+    "pillar3_slice": {
+      "delta_prev": 5,
+      "r_leaf": 2,
+      "twin_classes": [
+        [
+          11,
+          12
+        ],
+        [
+          13,
+          14
+        ],
+        [
+          15
+        ],
+        [
+          16,
+          17
+        ]
+      ],
+      "selected_class_indices": [
+        0,
+        1
+      ],
+      "claimed_total_excess": 8
+    }
+  }
+}

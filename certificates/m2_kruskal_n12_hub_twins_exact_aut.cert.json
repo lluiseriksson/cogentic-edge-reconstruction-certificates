@@ -1,0 +1,151 @@
+{
+  "schema_version": "EDGERECON-COGENTIC-CERT-1.0",
+  "cert_id": "m2_kruskal_n12_hub_twins_exact_aut",
+  "mode": "kruskal_multiscale_rigidity_cert",
+  "description": "12-vertex connected hub/bridge/twin graph verifying Lemma 3.1(1)-(2) with exact |Aut(G)| divisibility",
+  "payload": {
+    "n": 12,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        5
+      ],
+      [
+        0,
+        7
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        9
+      ],
+      [
+        1,
+        10
+      ],
+      [
+        1,
+        11
+      ],
+      [
+        2,
+        9
+      ],
+      [
+        2,
+        10
+      ],
+      [
+        2,
+        11
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        7,
+        8
+      ]
+    ],
+    "vertex_order": [
+      4,
+      6,
+      8,
+      3,
+      5,
+      7,
+      9,
+      10,
+      11,
+      0,
+      1,
+      2
+    ],
+    "thresholds": [
+      3,
+      6
+    ],
+    "claimed_mst_edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        5
+      ],
+      [
+        0,
+        7
+      ],
+      [
+        1,
+        9
+      ],
+      [
+        1,
+        10
+      ],
+      [
+        1,
+        11
+      ],
+      [
+        2,
+        9
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        7,
+        8
+      ]
+    ],
+    "claimed_scale_summaries": [
+      {
+        "delta_k": 3,
+        "H_k_size": 3,
+        "bridge_count": 1,
+        "core_tree_edges": 3,
+        "class_multiplicities": [
+          3,
+          2
+        ],
+        "aut_subgroup_factor": 12
+      }
+    ],
+    "claimed_aut_product_bound": 12,
+    "claimed_phi_delta_check_scale": 3,
+    "claimed_exact_aut_order": 72
+  }
+}

@@ -1,0 +1,7 @@
+name = "CogenticEdgeRecon"
+version = "0.1.0"
+defaultTargets = ["CogenticEdgeRecon"]
+
+[[lean_lib]]
+name = "CogenticEdgeRecon"
+moreLeanArgs = ["-j", "1"]

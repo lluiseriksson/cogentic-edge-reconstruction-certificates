@@ -1,0 +1,298 @@
+{
+  "schema_version": "EDGERECON-COGENTIC-CERT-1.0",
+  "cert_id": "m2_kruskal_n24_three_tier_dyadic",
+  "mode": "kruskal_multiscale_rigidity_cert",
+  "description": "24-vertex 3-tier dyadic Kruskal hierarchy (Delta in {3,6,12,16}) with bridge path and 4!*3!*3!*2! twin product",
+  "payload": {
+    "n": 24,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        0,
+        5
+      ],
+      [
+        0,
+        6
+      ],
+      [
+        0,
+        7
+      ],
+      [
+        0,
+        8
+      ],
+      [
+        0,
+        9
+      ],
+      [
+        0,
+        10
+      ],
+      [
+        0,
+        11
+      ],
+      [
+        0,
+        12
+      ],
+      [
+        0,
+        23
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        14
+      ],
+      [
+        1,
+        15
+      ],
+      [
+        1,
+        16
+      ],
+      [
+        1,
+        17
+      ],
+      [
+        1,
+        23
+      ],
+      [
+        2,
+        18
+      ],
+      [
+        2,
+        19
+      ],
+      [
+        2,
+        20
+      ],
+      [
+        2,
+        21
+      ],
+      [
+        2,
+        23
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        7,
+        8
+      ],
+      [
+        9,
+        10
+      ],
+      [
+        13,
+        23
+      ],
+      [
+        17,
+        22
+      ],
+      [
+        22,
+        21
+      ]
+    ],
+    "vertex_order": [
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      18,
+      19,
+      20,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      17,
+      21,
+      22,
+      23,
+      1,
+      2,
+      0
+    ],
+    "thresholds": [
+      3,
+      6,
+      12,
+      16
+    ],
+    "claimed_mst_edges": [
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        5
+      ],
+      [
+        0,
+        7
+      ],
+      [
+        0,
+        9
+      ],
+      [
+        0,
+        11
+      ],
+      [
+        0,
+        12
+      ],
+      [
+        0,
+        23
+      ],
+      [
+        1,
+        14
+      ],
+      [
+        1,
+        15
+      ],
+      [
+        1,
+        16
+      ],
+      [
+        1,
+        17
+      ],
+      [
+        1,
+        23
+      ],
+      [
+        2,
+        18
+      ],
+      [
+        2,
+        19
+      ],
+      [
+        2,
+        20
+      ],
+      [
+        2,
+        21
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        7,
+        8
+      ],
+      [
+        9,
+        10
+      ],
+      [
+        13,
+        23
+      ],
+      [
+        17,
+        22
+      ],
+      [
+        21,
+        22
+      ]
+    ],
+    "claimed_scale_summaries": [
+      {
+        "delta_k": 3,
+        "H_k_size": 4,
+        "bridge_count": 1,
+        "core_tree_edges": 4,
+        "class_multiplicities": [
+          1
+        ],
+        "aut_subgroup_factor": 1
+      },
+      {
+        "delta_k": 6,
+        "H_k_size": 3,
+        "bridge_count": 2,
+        "core_tree_edges": 4,
+        "class_multiplicities": [
+          3,
+          3
+        ],
+        "aut_subgroup_factor": 36
+      },
+      {
+        "delta_k": 12,
+        "H_k_size": 1,
+        "bridge_count": 0,
+        "core_tree_edges": 0,
+        "class_multiplicities": [
+          4,
+          2,
+          1
+        ],
+        "aut_subgroup_factor": 48
+      }
+    ],
+    "claimed_aut_product_bound": 1728,
+    "claimed_phi_delta_check_scale": 6
+  }
+}

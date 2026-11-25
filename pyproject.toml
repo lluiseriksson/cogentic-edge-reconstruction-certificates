@@ -1,0 +1,12 @@
+[project]
+name = "cogentic-edge-reconstruction-certificates"
+version = "1.0.0"
+description = "Constructive Lean 4.35.0 kernel and zero-float 4-mode certificate auditor for Google Research Cogentic's unconditional linear-density edge reconstruction theorem (m >= 1000 n_0)."
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "Lluis Eriksson" }]
+requires-python = ">=3.10"
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=7.0", "matplotlib>=3.8", "numpy>=1.26"]

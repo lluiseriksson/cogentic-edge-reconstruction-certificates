@@ -1,0 +1,20 @@
+import CogenticEdgeRecon
+
+#print axioms CogenticEdgeRecon.cor12_min_degree_implies_linear_density
+#print axioms CogenticEdgeRecon.thm11_vacuous_small_n
+#print axioms CogenticEdgeRecon.lem22_muller_factorial_bound
+#print axioms CogenticEdgeRecon.rem13_spanning_tree_barrier_at_d8
+#print axioms CogenticEdgeRecon.lem24_decision_tree_kraft_inductive
+#print axioms CogenticEdgeRecon.lem24_numerical_e_ln2_pi_rational
+#print axioms CogenticEdgeRecon.lem31_bridge_count_bound
+#print axioms CogenticEdgeRecon.lem31_nonbridge_entropy_margin
+#print axioms CogenticEdgeRecon.lem33_dyadic_sum_geometric
+#print axioms CogenticEdgeRecon.lem33_tail_error_10_neg_34
+#print axioms CogenticEdgeRecon.lem42_t1_charlier_ratio_decay
+#print axioms CogenticEdgeRecon.lem42_charlier_duality_2var
+#print axioms CogenticEdgeRecon.lem43_band_localization_partition
+#print axioms CogenticEdgeRecon.lem51_chebyshev_primorial_step
+#print axioms CogenticEdgeRecon.lem51_legendre_valuation_bound
+#print axioms CogenticEdgeRecon.prop84_chebyshev_sampling_3_8
+#print axioms CogenticEdgeRecon.prop84_degree_excess_conservation
+#print axioms CogenticEdgeRecon.sec9_final_contradiction_closure

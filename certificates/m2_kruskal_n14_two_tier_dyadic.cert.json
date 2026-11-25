@@ -1,0 +1,181 @@
+{
+  "schema_version": "EDGERECON-COGENTIC-CERT-1.0",
+  "cert_id": "m2_kruskal_n14_two_tier_dyadic",
+  "mode": "kruskal_multiscale_rigidity_cert",
+  "description": "14-vertex 2-tier dyadic Kruskal hierarchy (Delta in {3,6,9}) with multi-scale subgroup factorization",
+  "payload": {
+    "n": 14,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        0,
+        5
+      ],
+      [
+        0,
+        6
+      ],
+      [
+        0,
+        7
+      ],
+      [
+        0,
+        8
+      ],
+      [
+        1,
+        9
+      ],
+      [
+        1,
+        10
+      ],
+      [
+        1,
+        11
+      ],
+      [
+        2,
+        12
+      ],
+      [
+        2,
+        13
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        7,
+        8
+      ],
+      [
+        9,
+        12
+      ]
+    ],
+    "vertex_order": [
+      10,
+      11,
+      13,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      12,
+      2,
+      1,
+      0
+    ],
+    "thresholds": [
+      3,
+      6,
+      9
+    ],
+    "claimed_mst_edges": [
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        5
+      ],
+      [
+        0,
+        7
+      ],
+      [
+        1,
+        9
+      ],
+      [
+        1,
+        10
+      ],
+      [
+        1,
+        11
+      ],
+      [
+        2,
+        12
+      ],
+      [
+        2,
+        13
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        7,
+        8
+      ],
+      [
+        9,
+        12
+      ]
+    ],
+    "claimed_scale_summaries": [
+      {
+        "delta_k": 3,
+        "H_k_size": 3,
+        "bridge_count": 1,
+        "core_tree_edges": 3,
+        "class_multiplicities": [
+          2,
+          1
+        ],
+        "aut_subgroup_factor": 2
+      },
+      {
+        "delta_k": 6,
+        "H_k_size": 1,
+        "bridge_count": 0,
+        "core_tree_edges": 0,
+        "class_multiplicities": [
+          3,
+          1
+        ],
+        "aut_subgroup_factor": 6
+      }
+    ],
+    "claimed_aut_product_bound": 12,
+    "claimed_phi_delta_check_scale": 3,
+    "claimed_exact_aut_order": 96
+  }
+}

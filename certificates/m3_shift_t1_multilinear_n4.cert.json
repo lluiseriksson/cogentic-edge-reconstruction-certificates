@@ -1,0 +1,241 @@
+{
+  "schema_version": "EDGERECON-COGENTIC-CERT-1.0",
+  "cert_id": "m3_shift_t1_multilinear_n4",
+  "mode": "shift_invariant_charlier_band_cert",
+  "description": "Degree-4 sharp t=1 shift-invariant polynomial in 8 variables (ratio 16) + Charlier d=3, r=10",
+  "payload": {
+    "num_vars": 8,
+    "degree_N0": 4,
+    "terms": [
+      {
+        "exp": [
+          0,
+          1,
+          0,
+          1,
+          0,
+          1,
+          0,
+          1
+        ],
+        "coeff": "1"
+      },
+      {
+        "exp": [
+          0,
+          1,
+          0,
+          1,
+          0,
+          1,
+          1,
+          0
+        ],
+        "coeff": "-1"
+      },
+      {
+        "exp": [
+          0,
+          1,
+          0,
+          1,
+          1,
+          0,
+          0,
+          1
+        ],
+        "coeff": "-1"
+      },
+      {
+        "exp": [
+          0,
+          1,
+          0,
+          1,
+          1,
+          0,
+          1,
+          0
+        ],
+        "coeff": "1"
+      },
+      {
+        "exp": [
+          0,
+          1,
+          1,
+          0,
+          0,
+          1,
+          0,
+          1
+        ],
+        "coeff": "-1"
+      },
+      {
+        "exp": [
+          0,
+          1,
+          1,
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "coeff": "1"
+      },
+      {
+        "exp": [
+          0,
+          1,
+          1,
+          0,
+          1,
+          0,
+          0,
+          1
+        ],
+        "coeff": "1"
+      },
+      {
+        "exp": [
+          0,
+          1,
+          1,
+          0,
+          1,
+          0,
+          1,
+          0
+        ],
+        "coeff": "-1"
+      },
+      {
+        "exp": [
+          1,
+          0,
+          0,
+          1,
+          0,
+          1,
+          0,
+          1
+        ],
+        "coeff": "-1"
+      },
+      {
+        "exp": [
+          1,
+          0,
+          0,
+          1,
+          0,
+          1,
+          1,
+          0
+        ],
+        "coeff": "1"
+      },
+      {
+        "exp": [
+          1,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          1
+        ],
+        "coeff": "1"
+      },
+      {
+        "exp": [
+          1,
+          0,
+          0,
+          1,
+          1,
+          0,
+          1,
+          0
+        ],
+        "coeff": "-1"
+      },
+      {
+        "exp": [
+          1,
+          0,
+          1,
+          0,
+          0,
+          1,
+          0,
+          1
+        ],
+        "coeff": "1"
+      },
+      {
+        "exp": [
+          1,
+          0,
+          1,
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "coeff": "-1"
+      },
+      {
+        "exp": [
+          1,
+          0,
+          1,
+          0,
+          1,
+          0,
+          0,
+          1
+        ],
+        "coeff": "-1"
+      },
+      {
+        "exp": [
+          1,
+          0,
+          1,
+          0,
+          1,
+          0,
+          1,
+          0
+        ],
+        "coeff": "1"
+      }
+    ],
+    "target_v": [
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0
+    ],
+    "t_max": 1,
+    "claimed_l1_norm": "16",
+    "claimed_target_coeff": "1",
+    "claimed_ratio_l1_over_cv": "16",
+    "charlier_check": {
+      "d": 3,
+      "r": 10,
+      "k_max": 16,
+      "claimed_max_abs_I": "40979/48000",
+      "claimed_upper_bound": "69/80"
+    }
+  }
+}
